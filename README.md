@@ -1,2 +1,9 @@
 # Parkogrody-wersja2
-New, fresh website version. 
+New, responsive, fresh website version about gardening services.  
+
+#Technologies:
+- HTML
+- CSS
+- JAVA-SCRIPT
+- JQUERY
+- BOOTSTRAP 4
