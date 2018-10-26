@@ -75,10 +75,6 @@ body {
     text-align: center;
 }
 
-.marketing-margin {
-    margin: 1%;
-}
-
 .animation {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -95,21 +91,6 @@ body {
 .shadow {
     -webkit-box-shadow: 0px 0px 10px 14px rgba(0, 0, 0, 0.61);
     box-shadow: 0px 0px 10px 14px rgba(0, 0, 0, 0.61);
-}
-
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 100%;
 }
 
 .icon {
