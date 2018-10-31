@@ -128,6 +128,15 @@ body {
     margin-top: 7rem;
 }
 
+.img-test {
+    /* background-image: linear-gradient(to right, rgba(77, 236, 62, .8), rgba(0, 224, 156, .8), rgba(0, 204, 220, .8), rgba(0, 177, 244, .8), rgba(21, 146, 225, .8)), url(img/img11.jpg); */
+    background-image: url(img/img11.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    opacity: .5;
+}
 
 /*---------------------------NEON-----------------------------------------*/
 
@@ -627,6 +636,10 @@ footer {
     }
 
     .featurette-image {
+        display: none;
+    }
+
+    .img-test {
         display: none;
     }
 
