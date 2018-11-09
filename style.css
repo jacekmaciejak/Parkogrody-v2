@@ -128,6 +128,13 @@ body {
     margin-top: 7rem;
 }
 
+.featurette-contact a:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#4dec3e), to(#1592e1));
+    background-image: linear-gradient(to right, #4dec3e, #1592e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .img-test {
     /* background-image: linear-gradient(to right, rgba(77, 236, 62, .8), rgba(0, 224, 156, .8), rgba(0, 204, 220, .8), rgba(0, 177, 244, .8), rgba(21, 146, 225, .8)), url(img/img11.jpg); */
     background-image: url(img/img11.jpg);
