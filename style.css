@@ -135,14 +135,14 @@ body {
     color: transparent;
 }
 
+
 .img-test {
     /* background-image: linear-gradient(to right, rgba(77, 236, 62, .8), rgba(0, 224, 156, .8), rgba(0, 204, 220, .8), rgba(0, 177, 244, .8), rgba(21, 146, 225, .8)), url(img/img11.jpg); */
-    background-image: url(img/img11.jpg);
+    background-image: url(img/img1.jpg);
     object-fit: cover;
     background-size: cover;
     background-position: center;
     min-height: 70vh;
-    opacity: .5;
 }
 
 /*---------------------------NEON-----------------------------------------*/
@@ -261,6 +261,37 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+/*------------------------------------GALLERY-----------------------------------*/
+.gallery {
+    width: 100%;
+    margin: 5rem auto;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    background-image: linear-gradient(to right, rgba(77, 236, 62, .2), rgba(0, 224, 156, .2), rgba(0, 204, 220, .2), rgba(0, 177, 244, .2), rgba(21, 146, 225, .2));
+    padding: 2rem 0;
+}
+
+
+.item {
+    width: 250px;
+    height: 250px;
+    background: #000;
+    transition: .8s;
+    opacity: .8;
+}
+
+.item:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.item img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) scale(1.5);
+    width: 100%;
 }
 
 /*---------------------------------CONTACT EMAIL-----------------------------------*/

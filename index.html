@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="diamonds.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
@@ -171,6 +172,23 @@
                             <!--sdfsgedgadhdth--></span></h1>
                 </div>
             </div>
+            <div class="container px-0 js-wp-4">
+                <div class="row">
+                    <div class="gallery text-center">
+                        <div class="item"><img src="img/bg1.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg1.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg1.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg1.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg2.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg2.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg2.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg3.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg3.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg3.jpg" alt=""></div>
+                        <div class="item"><img src="img/bg3.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
 
             <section class="section-book js-wp-5">
                 <div class="row">
@@ -217,8 +235,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.diamonds.js"></script>
     <script src="script.js"></script>
+    <script type="text/javascript">
+        $(".gallery").diamonds({
+            size: 250, // Size of diamonds in pixels. Both width and height. 
+            gap: 5, // Pixels between each square.
+            hideIncompleteRow: false, // Hide last row if there are not enough items to fill it completely.
+            autoRedraw: true, // Auto redraw diamonds when it detects resizing.
+            itemSelector: ".item" // the css selector to use to select diamonds-items.
+        });
 
+    </script>
 
 </body>
 
