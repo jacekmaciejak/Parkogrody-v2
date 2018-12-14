@@ -86,11 +86,17 @@ body {
     transform: translateZ(-1.5rem) scale(1.1);
     -webkit-box-shadow: 1px 11px 19px 11px rgba(0, 0, 0, 0.74);
     box-shadow: 1px 11px 19px 11px rgba(0, 0, 0, 0.74);
+    border-top: 10px solid transparent;
+    -o-border-image: linear-gradient(to right, rgba(77, 236, 62, .5), rgba(0, 224, 156, .5), rgba(0, 204, 220, .5), rgba(0, 177, 244, .5), rgba(21, 146, 225, .5));
+    border-image: -webkit-gradient(linear, left top, right top, from(rgba(77, 236, 62, .5)), color-stop(rgba(0, 224, 156, .5)), color-stop(rgba(0, 204, 220, .5)), color-stop(rgba(0, 177, 244, .5)), to(rgba(21, 146, 225, .5)));
+    border-image: linear-gradient(to right, rgba(77, 236, 62, .5), rgba(0, 224, 156, .5), rgba(0, 204, 220, .5), rgba(0, 177, 244, .5), rgba(21, 146, 225, .5));
+    border-image-slice: 1;
 }
 
 .shadow {
     -webkit-box-shadow: 0px 0px 10px 14px rgba(0, 0, 0, 0.61);
     box-shadow: 0px 0px 10px 14px rgba(0, 0, 0, 0.61);
+
 }
 
 .icon {
@@ -643,11 +649,6 @@ footer {
         width: 5rem;
         height: 5rem;
         margin-bottom: 0 !important;
-    }
-
-    .animation:hover {
-        -webkit-transform: none;
-        transform: none;
     }
 
     /*-----------------------FEATURETTE-------------------------------*/
