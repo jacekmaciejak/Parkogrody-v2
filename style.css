@@ -167,21 +167,19 @@ Different version below of hover effect
 */
 .box-border:hover {
     transform: scale(1.2);
-}
-
-.box-border:hover {
     box-shadow: 0 25px 30px rgba(0, 0, 0, .5);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(77, 236, 62, .6)), color-stop(rgba(0, 224, 156, .6)), color-stop(rgba(0, 204, 220, .6)), color-stop(rgba(0, 177, 244, .6)), to(rgba(21, 146, 225, .6)));
     background-image: linear-gradient(to right, rgba(77, 236, 62, .6), rgba(0, 224, 156, .6), rgba(0, 204, 220, .6), rgba(0, 177, 244, .6), rgba(21, 146, 225, .6));
 }
 
-.box-border-item span {
+/* FLASH EFFECT
+.box-border span {
     position: absolute;
     top: 0;
     left: -120%;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .4);
     transition: .5s;
     transition-delay: .5s;
     transform: skewX(5deg);
@@ -191,6 +189,7 @@ Different version below of hover effect
     left: 120%;
 }
 
+*/
 /*----------------------------------------------- Featurettes------------------------- */
 
 .featurette {
