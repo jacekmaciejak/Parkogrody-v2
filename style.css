@@ -34,16 +34,8 @@ body {
     padding-right: 80px;
 }
 
-.navbar-nav li a {
-    border-bottom: 2px solid transparent;
-}
-
 .nav-item {
     margin: 1rem;
-}
-
-.navbar-dark {
-    color: red;
 }
 
 /* CUSTOMIZE THE CAROUSEL
