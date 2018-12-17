@@ -14,6 +14,19 @@ body {
     font-size: 1.4rem;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(77, 236, 62, 1)), color-stop(rgba(0, 224, 156, 1)), color-stop(rgba(0, 204, 220, 1)), color-stop(rgba(0, 177, 244, 1)), to(rgba(21, 146, 225, 1)));
     background-image: linear-gradient(to right, rgba(77, 236, 62, 1), rgba(0, 224, 156, 1), rgba(0, 204, 220, 1), rgba(0, 177, 244, 1), rgba(21, 146, 225, 1));
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    /*border-bottom: 2px solid #4dec3e;*/
+    background-color: #4dec3e;
+    outline: none;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
     color: #fff;
 }
 
@@ -25,19 +38,13 @@ body {
     border-bottom: 2px solid transparent;
 }
 
-.navbar-nav li a:hover,
-.navbar-nav li a:active {
-    /*border-bottom: 2px solid #4dec3e;*/
-    background-color: #4dec3e;
-    outline: none;
-    -webkit-transition: all 0.7s;
-    transition: all 0.7s;
-}
-
 .nav-item {
     margin: 1rem;
 }
 
+.navbar-dark {
+    color: red;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
