@@ -619,6 +619,7 @@ footer {
     -webkit-transform: skewY(5deg);
     transform: skewY(5deg);
     border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
     -o-border-image: linear-gradient(to right, rgba(77, 236, 62, .5), rgba(0, 224, 156, .5), rgba(0, 204, 220, .5), rgba(0, 177, 244, .5), rgba(21, 146, 225, .5));
     border-image: -webkit-gradient(linear, left top, right top, from(rgba(77, 236, 62, .5)), color-stop(rgba(0, 224, 156, .5)), color-stop(rgba(0, 204, 220, .5)), color-stop(rgba(0, 177, 244, .5)), to(rgba(21, 146, 225, .5)));
     border-image: linear-gradient(to right, rgba(77, 236, 62, .5), rgba(0, 224, 156, .5), rgba(0, 204, 220, .5), rgba(0, 177, 244, .5), rgba(21, 146, 225, .5));
@@ -648,10 +649,22 @@ footer {
 .bg-test {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(77, 236, 62, .2)), color-stop(rgba(0, 224, 156, .2)), color-stop(rgba(0, 204, 220, .2)), color-stop(rgba(0, 177, 244, .2)), to(rgba(21, 146, 225, .2)));
     background-image: linear-gradient(to right, rgba(77, 236, 62, .2), rgba(0, 224, 156, .2), rgba(0, 204, 220, .2), rgba(0, 177, 244, .2), rgba(21, 146, 225, .2));
+    animation: animation-bg 20s linear infinite;
 }
 
+@keyframes animation-bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
 
+    50% {
+        filter: hue-rotate(360deg);
+    }
 
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
 
 /*----------------------------------Animations----------------------------------*/
 
