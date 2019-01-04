@@ -183,7 +183,7 @@
                 </div>
             </div>
             <div class="container js-wp-4 px-0">
-                <div class="row featurette-contact transform-2 rounded bg-test" id="contact">
+                <div class="row featurette-contact transform-2 rounded bg-test">
                     <div class="col-12 text-center">
                         <h1><a href="tel:+48713333222" class="heading-secondary"><i class="fas fa-phone-square mr-3"></i> 123 - 456 - 789 <i class="fas fa-phone-square ml-3"></i></a></h1>
                     </div>
@@ -208,7 +208,7 @@
                 </div>
             </div>
 
-            <section class="section-book js-wp-5">
+            <section class="section-book js-wp-5" id="contact">
                 <div class="row">
                     <div class="col-12 book transform-3">
                         <div class="book__form col-lg-6">
@@ -248,28 +248,6 @@
         </footer>
     </main>
 
-    <!-- JavaScript Function closing menu after click on menu item/link -->
-    <script>
-        (function() {
-            function uncheckNav() {
-                document.getElementsByClassName("navbar").checked = false;
-            }
-
-            function setNavOnclick() {
-                Array.from(
-                        document.getElementsByClassName("nav-link")
-                    )
-                    .map(navLink => navLink.addEventListener("click", uncheckNav));
-            }
-
-            function main() {
-                setNavOnclick();
-            }
-
-            main();
-        })()
-
-    </script>
 
     <!-- Bootstrap core JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -298,6 +276,13 @@
                 $(this).addClass("active");
             })
         })
+
+    </script>
+    <script>
+        /* JQuery Function closing menu after click on menu item/link */
+        $('.navbar-nav>li>a').on('click', function() {
+            $('.navbar-collapse').collapse('hide');
+        });
 
     </script>
 </body>
