@@ -51,7 +51,7 @@ body {
 }
 
 .carousel-item {
-    height: 35rem;
+    height: 40rem;
     background-color: #777;
 }
 
@@ -60,7 +60,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 35rem;
+    height: 40rem;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
@@ -171,24 +171,6 @@ Different version below of hover effect
     background-image: linear-gradient(to right, rgba(77, 236, 62, .6), rgba(0, 224, 156, .6), rgba(0, 204, 220, .6), rgba(0, 177, 244, .6), rgba(21, 146, 225, .6));
 }
 
-/* FLASH EFFECT
-.box-border span {
-    position: absolute;
-    top: 0;
-    left: -120%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, .4);
-    transition: .5s;
-    transition-delay: .5s;
-    transform: skewX(5deg);
-}
-
-.box-border:hover span {
-    left: 120%;
-}
-
-*/
 /*----------------------------------------------- Featurettes------------------------- */
 
 .featurette {
@@ -347,7 +329,7 @@ Different version below of hover effect
 /*------------------------------------GALLERY-----------------------------------*/
 .gallery {
     width: 100%;
-    margin: 5rem auto;
+    margin-top: 5rem;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     background-image: linear-gradient(to right, rgba(77, 236, 62, .2), rgba(0, 224, 156, .2), rgba(0, 204, 220, .2), rgba(0, 177, 244, .2), rgba(21, 146, 225, .2));
     padding: 2rem 0;
@@ -578,6 +560,11 @@ footer {
     color: #f7f7f7;
     width: 100%;
     min-height: 10vh;
+    border-top: 5px solid transparent;
+    -o-border-image: linear-gradient(to right, rgba(77, 236, 62, .5), rgba(0, 224, 156, .5), rgba(0, 204, 220, .5), rgba(0, 177, 244, .5), rgba(21, 146, 225, .5));
+    border-image: -webkit-gradient(linear, left top, right top, from(rgba(77, 236, 62, .5)), color-stop(rgba(0, 224, 156, .5)), color-stop(rgba(0, 204, 220, .5)), color-stop(rgba(0, 177, 244, .5)), to(rgba(21, 146, 225, .5)));
+    border-image: linear-gradient(to right, rgba(77, 236, 62, .5), rgba(0, 224, 156, .5), rgba(0, 204, 220, .5), rgba(0, 177, 244, .5), rgba(21, 146, 225, .5));
+    border-image-slice: 1;
 }
 
 .footer__link:link,
