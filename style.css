@@ -1,4 +1,14 @@
 /*-----------GLOBAL STYLES-------------------------------------------------- */
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+    display: block;
+}
 
 body {
     padding-top: 3rem;
