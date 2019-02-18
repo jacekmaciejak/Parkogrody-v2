@@ -4,8 +4,8 @@ New, responsive, fresh website version about gardening services.
 https://jacekmaciejak.github.io/Parkogrody-v2/
 
 #Technologies:
-- HTML
-- CSS
+- HTML5
+- CSS3
 - Grid Layout,
 - Responsive web design,
 - JAVA-SCRIPT
