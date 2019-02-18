@@ -1,4 +1,4 @@
-# Parkogrody-wersja2
+# Parkogrody-v2
 New, responsive, fresh website version about gardening services.  
 
 https://jacekmaciejak.github.io/Parkogrody-wersja2/
